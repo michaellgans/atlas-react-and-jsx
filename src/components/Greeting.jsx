@@ -1,7 +1,5 @@
 // Greeting Component
 
-import App from "../App";
-import "./index.css";
 import day from "../assets/day.svg";
 import evening from "../assets/evening.svg";
 import night from "../assets/night.svg";
