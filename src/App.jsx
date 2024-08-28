@@ -25,6 +25,25 @@ function App() {
           <cite>Reacting to React: Virtual vs Actual DOM</cite>
         </a>
       </Section>
+      <Section title="Benefits of react">
+        <ul>
+          <li>
+            Modularized Development
+          </li>
+          <li>
+            Rapid and Efficient Rendering
+          </li>
+          <li>
+            Reuseable Componets
+          </li>
+          <li>
+            Integration with TailwindCSS
+          </li>
+          <li>
+            Transferable to ReactNative
+          </li>
+        </ul>
+      </Section>
     </div>
   );
 }
