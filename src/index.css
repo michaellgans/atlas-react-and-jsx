@@ -44,6 +44,15 @@ nav {
   margin-right: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+cite {
+  color: var(--offwhite);
+  font-size: .8em;
+}
+
 .about-me {
   background: var(--offwhite);
   color: var(--blue);
