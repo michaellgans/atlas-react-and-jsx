@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { OpenLink } from "./components/OpenLink";
 import { Section } from "./components/Section";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           </li>
         </ul>
       </Section>
+      <OpenLink link="https://cats.com/cat-Breeds"></OpenLink>
     </div>
   );
 }
