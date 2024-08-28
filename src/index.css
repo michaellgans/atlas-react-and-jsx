@@ -51,6 +51,7 @@ a {
 cite {
   color: var(--offwhite);
   font-size: .8em;
+  padding-left: 1rem;
 }
 
 .about-me {
