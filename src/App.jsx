@@ -47,7 +47,7 @@ function App() {
         </ul>
       </Section>
       <OpenLink link="https://cats.com/cat-Breeds"></OpenLink>
-      <CopyLink link="THIS IS A TEST"></CopyLink>
+      <CopyLink link="https://cats.com/cat-Breeds"></CopyLink>
     </div>
   );
 }
