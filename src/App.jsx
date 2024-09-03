@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Section } from "./components/Section";
 import { HelpfulResource } from "./components/HelpfulResource";
+import { AboutMe } from "./components/AboutMe";
 
 // App Component for React Application
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <HelpfulResource label="W3 Schools" link="https://www.w3schools.com/react/"/>
         <HelpfulResource label="YouTube Tutorial" link="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"/>
       </Section>
+      <AboutMe />
     </div>
   );
 }
