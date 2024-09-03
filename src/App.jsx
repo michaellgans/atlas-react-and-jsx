@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { OpenLink } from "./components/OpenLink";
 import { CopyLink } from "./components/CopyLink";
 import { Section } from "./components/Section";
+import { HelpfulResource } from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -45,6 +46,11 @@ function App() {
             Transferable to ReactNative
           </li>
         </ul>
+      </Section>
+      <Section title="Helpful Resources">
+        <HelpfulResource label="React Documentation" link="https://react.dev/"/>
+        <HelpfulResource label="W3 Schools" link="https://www.w3schools.com/react/"/>
+        <HelpfulResource label="YouTube Tutorial" link="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"/>
       </Section>
       <OpenLink link="https://cats.com/cat-Breeds"></OpenLink>
       <CopyLink link="https://cats.com/cat-Breeds"></CopyLink>
