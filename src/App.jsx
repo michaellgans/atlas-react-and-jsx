@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Section } from "./components/Section";
 import { HelpfulResource } from "./components/HelpfulResource";
 import { AboutMe } from "./components/AboutMe";
+import { Footer } from "./components/Footer";
 
 // App Component for React Application
 function App() {
@@ -53,6 +54,9 @@ function App() {
         <HelpfulResource label="YouTube Tutorial" link="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"/>
       </Section>
       <AboutMe />
+      <Footer>
+        
+      </Footer>
     </div>
   );
 }
