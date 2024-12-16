@@ -62,6 +62,15 @@ function App() {
           <li>
             Project Name: Trove
           </li>
+          <li>
+            Project Purpose: Create a tool for young teens and children to learn basic financial concepts like what is a loan, how to create a savings account, and what taxes are.
+          </li>
+          <li>
+            Audience: Ages 10-16
+          </li>
+          <li>
+            Role: UI/UX designer, Mobile Developer, Project Manager
+          </li>
           <a
             href="https://www.youtube.com/watch?v=oE0ZxpzOWRo"
             aria-label="Trove Demo Video"
