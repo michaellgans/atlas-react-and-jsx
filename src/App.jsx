@@ -12,7 +12,7 @@ function App() {
       <Section title="What is react?">
         <p>
           React is a JavaScript library that was developed by Facebook in 2013.
-          Its main purpose is to empower developers build user interfaces (UI's)
+          Its main purpose is to empower developers build user interfaces (UIs)
           through the creation of components - or modularized chunks of HTML -
           that are then rendered to the DOM through JavaScript functions. 
           Each function typically returns a JSX representation of what should be
@@ -52,6 +52,31 @@ function App() {
         <HelpfulResource label="React Documentation" link="https://react.dev/"/>
         <HelpfulResource label="W3 Schools" link="https://www.w3schools.com/react/"/>
         <HelpfulResource label="YouTube Tutorial" link="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"/>
+      </Section>
+      <Section title="Projects">
+        <p>
+          I recently completed my capstone project at Atlas School!  We were able to create a Full Stack MVP in two weeks working in a team of five.
+          I am proud to say that we created not only a web application, but a mobile application that partners with it.
+        </p>
+        <ul>
+          <li>
+            Project Name: Trove
+          </li>
+          <a
+            href="https://www.youtube.com/watch?v=oE0ZxpzOWRo"
+            aria-label="Trove Demo Video"
+            target="_blank"
+          >
+            <li>Demo Video</li>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=oE0ZxpzOWRo"
+            aria-label="Trove Github"
+            target="_blank"
+          >
+            <li>GitHub</li>
+          </a>
+        </ul>
       </Section>
       <AboutMe />
       <Footer>
