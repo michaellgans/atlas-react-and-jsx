@@ -3,6 +3,7 @@ import { Section } from "./components/Section";
 import { HelpfulResource } from "./components/HelpfulResource";
 import { AboutMe } from "./components/AboutMe";
 import { Footer } from "./components/Footer";
+import img from "../images/Banner.png"
 
 // App Component for React Application
 function App() {
@@ -58,10 +59,14 @@ function App() {
           I recently completed my capstone project at Atlas School!  We were able to create a Full Stack MVP in two weeks working in a team of five.
           I am proud to say that we created not only a web application, but a mobile application that partners with it.
         </p>
-        <ul>
+        <ul
+          style={{ paddingBottom: '20px' }}
+        >
           <li>
             Project Name: Trove
           </li>
+          <img src={img} alt="image of project" style={{ paddingTop: '20px', width: '500px', height: 'auto' }}>
+          </img>
           <li>
             Project Purpose: Create a tool for young teens and children to learn basic financial concepts like what is a loan, how to create a savings account, and what taxes are.
           </li>
